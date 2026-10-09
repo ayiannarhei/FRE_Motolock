@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'MotoLock',
       theme: ThemeData(
         scaffoldBackgroundColor: const Color(0xFFF3F4F6),
         useMaterial3: true,

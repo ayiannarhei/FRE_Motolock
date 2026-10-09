@@ -9,6 +9,10 @@ void main() {
   ) async {
     await tester.pumpWidget(const MyApp());
 
+    expect(
+      tester.widget<MaterialApp>(find.byType(MaterialApp)).title,
+      'MotoLock',
+    );
     expect(find.text('Starting Value'), findsOneWidget);
     expect(find.text('Current Value'), findsOneWidget);
     expect(find.text('Percentage Change'), findsOneWidget);
