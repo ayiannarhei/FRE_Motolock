@@ -413,7 +413,7 @@ class MotoLockApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MotoLock Analytics',
+      title: 'MotoLock',
       theme: ThemeData(
         useMaterial3: true,
         scaffoldBackgroundColor: C.surface,
